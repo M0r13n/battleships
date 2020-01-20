@@ -16,6 +16,19 @@ You can now start the game by running:
 ```
 You can then decide to either start the game as a server or as a client. 
 
+There are two boards displayed. 
+The left displays your ships and their hits. 
+The right shows your past shots, which can either be hits or misses.
+
+
+| Color            | Meaning        |
+|------------------|----------------|
+| Black/ white     | Empty Field    |
+| Green            | Own Ship       |
+| Green with red X | Own Ship Hit   |
+| RED              | Enemy Ship Hit |
+| Yellow           | Miss           |
+
 
 # Technical details
 The game uses a TCP/IP socket to enable point to point communication between two players.
